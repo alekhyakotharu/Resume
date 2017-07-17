@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alekhya Kotharu</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="lib/css/custom.css" rel="stylesheet">
+    <link href="lib/css/animation.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="lib/images/AK-logo.png" sizes="16x16" type="image/png" >
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<div>
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="">
+                    <img class="img-responsive" alt="AK" src="lib/images/AK-logo.png">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#/about">About</a></li>
+                    <li><a href="#/experience">Experience</a></li>
+                    <li><a href="#/skills">Skills</a></li>
+                    <li><a href="#/projects">Projects</a></li>
+                    <li><a href="#/qualifications">Qualifications</a></li>
+                    <li><a href="#/courses">Courses</a> </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</div>
+
+<div class="view-animate-container">
+    <div ng-view class="view-animate"></div>
+</div>
+
+<div class="navbar navbar-inverse navbar-fixed-bottom" id="my-navbar-bottom">
+    <div class="container">
+        <div class="navbar-text pull-left">
+            <p>
+                <span class="glyphicon glyphicon-copyright-mark"></span>
+                2017
+                All rights reserved.
+            </p>
+        </div>
+        <div class="navbar-text pull-right">
+            <ul>
+                <a href="#"><i class="fa fa-lg fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-lg fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-lg fa-google-plus"></i></a>
+                <a href="https://github.com/"><i class="fa fa-lg fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/alekhya-k"><i class="fa fa-lg fa-linkedin"></i></a>
+            </ul>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-resource.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-animate.js"></script>
+<!--<script src="bower_components/angular/angular.js"></script>-->
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery.js"></script>
+<!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+
+<script src="app.js"></script>
+<script src="controller.js"></script>
+<script src="services.js"></script>
+
+<!--<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/angular-resource/angular-resource.js"></script>-->
+
+</body>
+</html>
